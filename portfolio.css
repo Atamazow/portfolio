@@ -1,0 +1,588 @@
+body{
+    margin: 0px;
+}
+header{
+    position: relative;
+}
+
+.fotoHeader{background-image: url("./image/headerFoto.png");
+           width: 100%;
+           height: 1000px;
+           background-size: cover;
+            overflow: hidden;
+}
+.logotip{background-image: url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/logo-inverse-347x65.png");
+            width: 200px;
+            height: 33px;
+            background-size: cover;
+
+}
+.menu{
+    align-items: center;
+    margin-top: 60px;
+}
+.nav{
+    justify-content: center;
+}
+.getNav {
+    list-style: none;
+    margin-left: 25px;
+}
+.navigaci{
+
+    margin-left: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+}
+.navigaci:hover{
+    color: #2ed3ae;
+    transition: 0.4s;
+}
+
+.menubtn{ color: white;
+            border: 1px solid white ;
+            padding: 10px 13px;
+            border-radius: 5px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-left: 40px;
+    box-sizing: border-box;
+
+
+}
+.menubtn:hover{
+    transition: 0.3s;
+    background-color: #2ed3ae;
+    border-width: 0;
+}
+.bordlini{
+    border-bottom: 1px solid #4c9081 ;
+    margin-top: 50px;
+}
+.zagolovok{
+    text-align: center;
+    font-size: 90px;
+    font-weight: 600;
+    color: white;
+}
+.getZagolovok{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    z-index: 1;
+    transform: translate3d(-50%,-50%,0);
+
+}
+
+.tuo{font-size: 55px;
+    color: #4c9081;
+    font-weight: 600;
+    margin-left: 20px;
+    position: absolute;
+    top:-5px;
+}
+.new{
+    color: white;
+    font-size: 40px;
+}
+.getbtn{
+    color: white;
+    font-size: 20px;
+    border: 1px solid white ;
+    padding: 20px 13px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #2ed3ae;
+    box-sizing: border-box;
+    border-width: 0;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.getbtn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+/*закончил стили для ХИДАР*/
+
+
+/*СТИЛИ ДЛЯ КОНТЕНТ*/
+
+
+.contentZagolovok{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 190px;
+    box-sizing: border-box;
+}
+.textContent{
+    margin-top: 26px;
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+}
+.contentFoto1
+,.contentFoto2
+,.contentFoto3{
+    width: 369px;
+    height: 278px;
+    background-size: cover;
+    cursor: pointer;
+
+}
+.contentFoto1{
+            background-image:
+            url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/services-1-418x315.jpg");
+}
+.contentFoto2{background-image:
+        url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/services-3-418x315.jpg");
+}
+.contentFoto3{
+
+    background-image:
+            url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/services-2-418x315.jpg");
+}
+
+.contentFoto1:hover{
+    box-shadow:  0 5px 23px 0 rgba(0, 0, 0, 0.15) ;
+    transition: 0.4s;
+}.contentFoto2:hover{
+     box-shadow:  0 5px 23px 0 rgba(0, 0, 0, 0.15) ;
+     transition: 0.4s;
+ }.contentFoto3:hover{
+      box-shadow:  0 5px 23px 0 rgba(0, 0, 0, 0.15) ;
+      transition: 0.4s;
+  }
+.gitObjContent{
+    margin-top: 25px;
+    width: 369px;
+    text-align: left;
+}
+.contText{
+    margin-top:18px ;
+    font-size: 18px;
+    color: #888;
+}
+.getConZag{
+    font-size:24px ;
+    color: #151515;
+    cursor: pointer;
+}
+.getConZag:hover{
+    color: #2ed3ae;
+    transition: 0.3s;
+}
+
+
+
+/*закончил стили для КОНТЕНТ */
+
+
+/*СТИЛИ ДЛЯ SELECTOR*/
+
+.selector{
+    background-color: #2ed3ae;
+    padding-top: 150px;
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+
+.selectorFoto{
+    background-image:
+
+            url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/home-commerial-1-652x491.jpg");
+             width: 550px;
+             height: 451px;
+    background-size: cover;
+}
+.getSelectorText{
+    margin-left: 50px;
+    color: white;
+    margin-top: 50px;
+}
+.selectorZagolvok{
+font-size: 40px;
+    font-weight: 200;
+}
+.selectorText{
+    margin-top: 40px;
+}
+
+
+/*закончил стили для SELECTOR */
+
+
+/*СТИЛИ ДЛЯ  center*/
+
+ .center{
+     margin-top: 100px;
+ }
+ .novosti{
+     width: 350px;
+     max-width: 100%;
+ }
+.ikona{
+    color: #2ed3ae;
+}
+.getCentetText{
+    margin-left: 30px;
+}
+.centerZagolovok{
+    font-size: 24px ;
+    color: #000;
+}
+.centerText{
+    color:#888 ;
+    margin-top: 20px;
+}
+/*закончил стили для center */
+
+
+/*СТИЛИ ДЛЯ  IMPORTANT*/
+
+
+.importFoto{
+    background-image:
+            url("./image/stacan.png");
+            width: 100%;
+            height: 700px ;
+            background-size: cover;
+            background-position: left;
+            overflow: hidden;
+}
+.importantObj{
+    margin-top: 150px;
+}
+.importantZag{
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.importantText{
+    margin-top: 28px;
+    color: #888;
+}
+
+.importantBtn{
+    background-color: #2ed3ae;
+    color: white;
+    border-color: #2ed3ae;
+    margin-top: 35px;
+    padding: 17px 40px 15px;
+    font-size: 16px;
+    line-height: 24px;
+    border-width: 0;
+    border-radius: 4px ;
+}
+.importantBtn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+/*закончил стили для IMPORTANT */
+
+
+/*СТИЛИ ДЛЯ  podval*/
+
+.getPodval{
+    margin-top: 100px;
+    text-align: center;
+}
+.podvalZagolovok{
+    font-size: 45px;
+    font-weight: 200;
+    color: #151515;
+}
+.podvalText{
+    margin-top: 30px;
+    color: #888;
+
+}
+.podvalCovichki{
+    color: #2ed3ae;
+    font-size: 26px ;
+    margin-top: 20px;
+}
+.getPodvalText{
+        margin: auto;
+        width: 700px;
+    max-width: 100%;
+
+}
+.name{
+    color: #000;
+    margin-top: 15px;
+
+}
+/*закончил стили для podval */
+
+
+/*СТИЛИ ДЛЯ  fotoalbom*/
+
+
+.fotoalbom{
+
+    margin-top: 120px;
+}
+.getfoto1,.getfoto2,.getfoto3,.getfoto4
+,.getfoto5,.getfoto6,.getfoto7,.getfoto8{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+
+}
+.getGallereya{
+     margin-left: 0px;
+}
+.getfoto1{
+    background-image:
+            url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/image-original-3-1200x906.jpg");
+
+}
+.getfoto2{
+    background-image:
+            url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/image-original-9-1200x905.jpg");
+}
+.getfoto3{
+    background-image:
+            url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/image-original-10-1200x675.jpg");
+}
+.getfoto4{
+    background-image:
+            url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/image-original-11-1200x1200.jpg");
+}
+.getfoto5{
+    background-image:
+            url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/image-original-14-1200x905.jpg");
+}
+.getfoto6{background-image:
+        url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/image-original-6-1200x905.jpg")
+}
+.getfoto7{
+    background-image:
+            url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/image-original-12-1200x797.jpg");
+}
+.getfoto8{background-image:
+        url("https://livedemo00.template-help.com/wt_62267_v8/62267-default/images/services-3-418x315.jpg")
+}
+
+
+.sponsor{
+    margin-left:-40px;
+}
+
+.getfoto1:hover::before {
+    display:block;
+    content: "";
+    background-color: #2ed3ae;
+    width: 100%;
+    height: 400px;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.getfoto1::before{
+    transition: 0.4s;
+}
+.getfoto2:hover::before {
+    display:  block;
+    content: "";
+    background-color: #2ed3ae;
+    width: 100%;
+    height: 400px;
+    opacity: 0.8;
+
+}
+.getfoto3:hover::before {
+    display:  block;
+    content: "";
+    background-color: #2ed3ae;
+    width: 100%;
+    height: 400px;
+    opacity: 0.8;
+
+}
+.getfoto4:hover::before {
+    display:  block;
+    content: "";
+    background-color: #2ed3ae;
+    width: 100%;
+    height: 400px;
+    opacity: 0.8;
+}
+.getfoto5:hover::before {
+    display:  block;
+    content: "";
+    background-color: #2ed3ae;
+    width: 100%;
+    height: 400px;
+    opacity: 0.8;
+
+}
+.getfoto6:hover::before {
+    display:  block;
+    content: "";
+    background-color: #2ed3ae;
+    width: 100%;
+    height: 400px;
+    opacity: 0.8;
+
+}
+.getfoto7:hover::before {
+    display:  block;
+    content: "";
+    background-color: #2ed3ae;
+    width: 100%;
+    height: 400px;
+    opacity: 0.8;
+
+}
+.getfoto8:hover::before {
+    display:  block;
+    content: "";
+    background-color: #2ed3ae;
+    width: 100%;
+    height: 400px;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+/*закончил стили для fotoalbom* */
+
+
+/*СТИЛИ ДЛЯ  blackblock*/
+
+.blackFoto{
+    background-image:
+            url("./image/blackfoto.png");
+    width: 100%;
+    max-width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+
+}
+.black{
+    justify-content: flex-end;
+
+}
+.blackblockObj{
+    position: relative;
+    left: 10%;
+
+
+}
+.blackZag{
+
+    font-size: 40px;
+    color: white;
+}
+
+.blackText{
+    font-size: 18px;
+    margin-top: 28px;
+    color: white;
+}
+
+
+
+.footerBtn{
+    background-color: #2ed3ae;
+    color: white;
+    border-color: #2ed3ae;
+    padding: 18px 40px 15px;
+    font-size: 20px;
+    line-height: 24px;
+    border-width: 0;
+    border-radius: 4px
+}
+
+
+
+.getFooter{margin-top: 100px;
+
+}
+.inpBtn{  background-color:  #f5f5fa;
+       margin-top: 50px;
+       align-items: center;
+       border-radius: 4px;
+       padding: 0px 25px;
+       width: 350px;
+       height: 60px;
+        max-width: 100%;
+        position:relative;
+        left: 55%;
+
+
+}
+.poisk{
+    padding: 6px;
+    font-size: 21px;
+    font-family: Hind,Arial,sans-serif;
+    padding-left: 10px;
+    border: none;
+    border-width: 0;
+    background-color: #f5f5fa;
+}
+.footerText{
+    font-size: 24px;
+    text-align: center;
+    font-size: 24px;
+}
+.email{
+   color:  #c7c7c7;
+    font-size: 21px;
+}
+.inpBtn:hover{
+    border: 2px solid #2ed3ae;
+    transition: 0.4s;
+}
+.footer-ikonki{
+    text-align: center;
+    margin-top: 25px;
+}
+.ikonaFuter {
+    margin-left: 20px;
+    color: #2ed3ae;
+    font-size: 20px;
+
+}
+.ikonaFuter:hover{
+    color: black;
+    transition: 0.5s;
+}
+.name{
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 40px;
+     color: gray;
+}
+
+/*АДАПТИВНАЯ ВЕРСТКА*/
+
+
+@media only screen and (max-width: 414px){
+    .zagolovok{
+        font-size: 54px;
+    }
+    .new {
+        font-size: 17px;
+
+    }
+
+}
+
