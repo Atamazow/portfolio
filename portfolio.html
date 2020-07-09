@@ -2,40 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <base href="/portfolio/">
+     
     <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" >
-    <link rel="stylesheet" href="./portfolio.css" >
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="portfolio.css" >
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
 </head>
 <body>
     <header>
         <div class="getHeader" >
             <div class="fotoHeader" >
+                 <div class="menublack" > <span class="material-icons" id="menuOkno">
+                    list
+                    </span></div>
                 <div class="container" >
-                    <div class="menu d-flex  " >
+                     
+                    <div class="menu d-flex   " >
+                    <!--
+                        Мобильное Меню
+                    -->
+                                       
+
+              <!--
+                  Меню для Компа
+              -->
                         <div class="logotip animate__animated animate__animated animate__fadeInDownBig " ></div>
-                        <div class="nav d-flex  " >
-                            <ul class="d-flex getNav " >
-                                <li class="navigaci   wow  animate__animated   animate__fadeInDownBig " style="color:#2ed3ae "  >HOME</li>
-                                <li class="navigaci   wow animate__animated   animate__fadeInDownBig" >FEATURES</li>
-                                <li class="navigaci   wow animate__animated animate__fadeInDownBig" >PAGES</li>
-                                <li class="navigaci   wow animate__animated animate__fadeInDownBig" >EVINTS</li>
-                                <li class="navigaci   wow animate__animated animate__fadeInDownBig" >BLOG</li>
-                                <li class="navigaci   wow animate__animated animate__fadeInDownBig" >GALLERY</li>
-                                <li class="navigaci   wow animate__animated animate__fadeInDownBig" >SHOP</li>
-                                <li class="navigaci   wow animate__animated  animate__fadeInDownBig" >ELEMENTS</li>
+                          <div id="mobileNavigaci" class="mobileNav animate__animated   animate__fadeInDownBig " >
+
+                              <ul class="getNav  " >
+                                <li class="mobNavigaci   wow  animate__animated   animate__fadeInDownBig " style="color:#2ed3ae "  >HOME</li>
+                                <li class="mobNavigaci   wow animate__animated   animate__fadeInDownBig" >FEATURES</li>
+                                <li class="mobNavigaci   wow animate__animated animate__fadeInDownBig" >PAGES</li>
+                                <li class="mobNavigaci   wow animate__animated animate__fadeInDownBig" >EVINTS</li>
+                                <li class="mobNavigaci   wow animate__animated animate__fadeInDownBig" >BLOG</li>
+                                <li class="mobNavigaci   wow animate__animated animate__fadeInDownBig" >GALLERY</li>
+                                <li class="mobNavigaci   wow animate__animated animate__fadeInDownBig" >SHOP</li>
+                                <li class="mobNavigaci   wow animate__animated  animate__fadeInDownBig" >ELEMENTS</li>
                             </ul>
                         </div>
+
                              <div class="menubtn animate__animated animate__animated animate__fadeInDownBig " >ПОДПИСАТЬСЯ</div>
                     </div>
                 </div>
@@ -45,11 +60,12 @@
                     <sapn class="zagolovok wow  animate__animated animate__fadeInUp " > Monstroid  </sapn>
                     <span class="tuo wow  animate__animated animate__fadeInUp ">2</span>
                     <div class="new wow  animate__animated animate__fadeInUp "  >  New HTML Templates Generation </div>
-
+                    
                     <div class="getbtn wow  animate__animated animate__fadeInUp " >Записаться</div>
                 </div>
 
                 </div>
+            </nav>
             </div>
 
         </div>
@@ -66,7 +82,8 @@
                 <div class="container" >
                     <div class="row row-fix justify-content-lg-center" >
                         <div class="col-md-10 col-12 wow  animate__animated animate__fadeInRight" >
-                        <div class="contentZagolovok" >
+                            <div class="contentObjText" >
+                            <div class="contentZagolovok" >
                             Multiple Themes &<br>
                             a Variety of FeaturesS
                         </div>
@@ -75,14 +92,15 @@
                              variety of useful features
                              variety of useful features that are included with this template.</p>
                         </div>
+                        </div>
                     </div>
                     <div class="row mt-5 " >
                         <div class="col-md-4 col-12 " >
-                            <div class="contentGalereya   wow animate__animated animate__fadeInLeftBig  " >
+                            <div class="contentGalereya ml-3  wow animate__animated animate__fadeInLeftBig  " >
                             <div class="contentFoto1 " ></div>
                             <div class="gitObjContent" >
                             <div class="getConZag" >Bootstrap Framework</div>
-                            <div class="contText" >Monstroid² is based on Bootstrap Framework, which makes it a nice template for any purpose.</div>
+                            <p class="contText" >Monstroid² is based on Bootstrap Framework, which makes it a nice template for any purpose.</p>
                         </div>
                             </div>
                         </div>
@@ -91,18 +109,17 @@
                             <div class="contentFoto2" ></div>
                             <div class="gitObjContent" >
                                 <div class="getConZag" >Responsive & Retina Ready</div>
-                                <div class="contText" > Monstroid² looks great on any screen resolution and on any device due to its responsiveness..</div>
+                                <p class="contText" > Monstroid² looks great on any screen resolution and on any device due to its responsiveness..</p>
                             </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-12" >
-                            <div class="contentGalereya ml-4 wow animate__animated animate__fadeInLeftBig" >
+                            <div class="contentGalereya ml-3 wow animate__animated animate__fadeInLeftBig" >
                             <div class="contentFoto3" ></div>
                             <div class="gitObjContent " >
-                            <div class="gitObjContent " >
                                 <div class="getConZag" >Customizable Template</div>
-                                <div class="contText" > Use our Template to customize and update your website within seconds </div>
-                            </div>
+                                <p class="contText" > Use our Template to customize and update your website within seconds </p>
+
                             </div>
                         </div>
                     </div>
@@ -301,7 +318,7 @@
     </div>
     </div>
     <div class="container">
-
+ 
             <img src="./image./422d3b50-f13b-40fe-83ed-c88c78d8f9a5.jpg" class="sponsor wow animate__animated animate__fadeInLeftBig  " >
 
     </div>
@@ -354,7 +371,9 @@
             <div class="col-6" >
             <div class="inpBtn d-flex align-items center  " >
                 <div class="footerIkona" ><i class="fa fa-envelope-o email" aria-hidden="true"></i></div>
+               <div class="inputObj" >
                 <input class="poisk"placeholder="email..." >
+                </div>
                 <button class="footerBtn ml-5 ">SUBSCRIDE</button>
             </div>
 
@@ -377,6 +396,23 @@
     <script src="WOW/dist/wow.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+    <script>
+      const menuOkno = document.getElementById('menuOkno')
+      const mobileNavigaci = document.getElementById('mobileNavigaci');
+
+    
+      menuOkno.addEventListener(`click`,show) 
+    
+    function show(){
+      if(mobileNavigaci.className == 'hidden'){
+        mobileNavigaci.className = 'mobileNav';
+      }
+      else {
+        mobileNavigaci.className = 'hidden'
+      }
+    }
+
     </script>
     </body>
 </html>

@@ -27,16 +27,16 @@ header{
 .getNav {
     list-style: none;
     margin-left: 25px;
+    display: flex;
 }
-.navigaci{
-
+.mobNavigaci{
     margin-left: 30px;
     font-weight: 600;
     margin-top: 15px;
     color: white;
     cursor: pointer;
 }
-.navigaci:hover{
+.mobNavigaci:hover{
     color: #2ed3ae;
     transition: 0.4s;
 }
@@ -470,6 +470,7 @@ font-size: 40px;
             url("./image/blackfoto.png");
     width: 100%;
     max-width: 100%;
+    max-height: 100%;
     height: 600px;
     background-size: cover;
     background-position: left;
@@ -526,7 +527,7 @@ font-size: 40px;
         max-width: 100%;
         position:relative;
         left: 55%;
-
+    min-width: 100%;
 
 }
 .poisk{
@@ -571,18 +572,231 @@ font-size: 40px;
     font-size: 40px;
      color: gray;
 }
+#menuOkno{
+display: none
+}
 
 /*АДАПТИВНАЯ ВЕРСТКА*/
+ 
+ 
+@media only screen and (max-width: 414px) {
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menublack {
+        background-color: #000;
+        height: 60px;
+        width: 100%;
+        position: relative;
+        display: none;
+    }
+
+    .logotip {
+        width: 160px;
+        height: 27px;
+        position: fixed;
+        z-index: 10;
+        top: 13px;
+        left: 60px;
+
+    }
+
+    #menuOkno {
+        display: block;
+
+        color: white;
+        font-size: 35px;
+        position: fixed;
+        top: 12px;
+        left: 8px;
+
+    }
+
+    .menublack {
+        display: block;
+        position: fixed;
+        z-index: 10;
 
 
-@media only screen and (max-width: 414px){
-    .zagolovok{
+    }
+
+    .bordlini {
+        display: none;
+    }
+
+    .navigaci, .menubtn {
+        display: none;
+    }
+
+    .zagolovok {
         font-size: 54px;
     }
+
     .new {
         font-size: 17px;
 
     }
 
+    /* МОБИЛЬНОЕ МЕНЮ*/
+    .hidden {
+        margin-top: -20px;
+        width: 280px;
+        background-color: white;
+        height: 812px;
+        position: fixed;
+        z-index: 10;
+        top: 80px;
+        left: -20px;
+        transition: 0.5s;
+    }
+
+    .mobileNav {
+        overflow: hidden;
+        width: 0px;
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+    .getNav {
+
+
+        position: fixed;
+        z-index: 10;
+        margin-left: -40px;
+        margin-top: -0px;
+
+    }
+
+    .mobNavigaci:hover {
+        background-color: #2ed3ae;
+        transition: 0.5s;
+        color: white;
+    }
+}
+/* ЗАКОНЧИЛ АДАПТИВНУЮ ВЕРСТКУ ДЛЯ ХИДАР 
+    ПЕРЕХОЖУ В КОНТЕНТ
+*/
+
+@media only screen and (max-width: 414px){
+
+    .contentFoto1,.contentFoto2,.contentFoto3{
+        width: 350PX;
+        margin-left:-15px;
+        margin-top: 15px;
+    }
+    .contentObjText{
+        margin-left: 20px;
+    }
+    .getZagolovok{
+        margin-top: 50px;
+    }
+    .mobNavigaci{
+        padding: 10px 40px;
+        width: 260px;
+        margin-left: 20px;
+        font-weight: 600;
+        margin-top: 15px;
+        color:black;
+        cursor: pointer;
+
+    }
+    .getNav{
+        display: grid;
+}
+}
+ 
+/* ЗАКОНЧИЛ АДАПТИВНУЮ ВЕРСТКУ ДЛЯ КОНТЕНТ
+    ПЕРЕХОЖУ В SELECTOR
+*/
+
+@media only screen and (max-width: 414px){
+    .selector{
+        margin-top: 40px;
+        padding-top:50px ;
+    }
+    .selectorFoto{
+        width: 340px;
+        height: 260px;
+        background-size: cover;
+    }
+    
+}
+/* ЗАКОНЧИЛ АДАПТИВНУЮ ВЕРСТКУ ДЛЯ SELECTOR
+    ПЕРЕХОЖУ В  CENTER
+*/
+
+/* ЗАКОНЧИЛ АДАПТИВНУЮ ВЕРСТКУ ДЛЯ CENTER
+    ПЕРЕХОЖУ В  IMPORTATNT
+*/
+@media only screen and (max-width: 414px){
+    .importantZag{
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .importFoto{
+        height: 440px;
+    }
+    .importantObj{
+        margin-left:30px;
+    }
+
+
+}
+/* ЗАКОНЧИЛ АДАПТИВНУЮ ВЕРСТКУ ДЛЯ IMPORTATNT
+    ПЕРЕХОЖУ В   getPodval
+*/
+
+ 
+@media only screen and (max-width: 414px){
+    .podvalZagolovok{
+        font-size: 35px;
+    }
 }
 
+/* ЗАКОНЧИЛ АДАПТИВНУЮ ВЕРСТКУ ДЛЯ getPodval
+    ПЕРЕХОЖУ В   blackblock
+
+*/
+ @media only screen and (max-width: 414px){
+    .blackZag{
+        font-size: 25px;
+
+    }
+
+    .blackText{
+        font-size: 15px;
+
+    }
+    .blackFoto{
+        background-position: center right;
+    }
+
+.sponsor{
+    width: 414px;
+}
+
+ }
+/* ЗАКОНЧИЛ АДАПТИВНУЮ ВЕРСТКУ ДЛЯ blackblock
+    ПЕРЕХОЖУ В   footer
+
+*/
+@media only screen and (max-width: 414px) {
+
+    .poisk {
+        width: 100px;
+    }
+
+    .inpBtn {
+        width: 700px;
+    }
+
+    .footerBtn {
+
+        display: none;
+    }
+}
